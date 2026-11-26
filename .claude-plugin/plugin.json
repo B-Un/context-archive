@@ -1,0 +1,5 @@
+{
+  "name": "context-archive",
+  "version": "0.1.0",
+  "description": "Search full Claude Code transcripts (before compaction and past sessions) with a fast local SQLite index, and get reminded to check the original after every compaction."
+}

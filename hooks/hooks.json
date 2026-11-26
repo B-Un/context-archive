@@ -1,0 +1,17 @@
+{
+  "description": "After a compaction, remind Claude that the summary is lossy and point it at the full transcript.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/run.sh\" hook-compact",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

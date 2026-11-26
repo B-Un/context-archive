@@ -1,0 +1,11 @@
+{
+  "name": "context-archive",
+  "owner": { "name": "B-Un" },
+  "plugins": [
+    {
+      "name": "context-archive",
+      "source": "./",
+      "description": "Search full Claude Code transcripts with a local SQLite index; reminder to check the original after compaction."
+    }
+  ]
+}
